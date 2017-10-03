@@ -22,5 +22,13 @@ namespace Test
             double b = Convert.ToDouble(txt2.Text);
             lbKQ.Text = "Kết quả: " + (a + b).ToString();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            double a = double.Parse(txt1.Text);
+            double b = double.Parse(txt2.Text);
+            double c = a - b;
+            lbKQ.Text = c.ToString();
+        }
     }
 }
