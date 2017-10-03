@@ -22,5 +22,10 @@ namespace Test
             double b = Convert.ToDouble(txt2.Text);
             lbKQ.Text = "Kết quả: " + (a + b).ToString();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
