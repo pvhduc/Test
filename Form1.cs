@@ -23,6 +23,9 @@ namespace Test
             lbKQ.Text = "Kết quả: " + (a + b).ToString();
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         private void button2_Click(object sender, EventArgs e)
         {
             double a = double.Parse(txt1.Text);
